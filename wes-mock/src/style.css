@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css?family=Bellefair");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,9 +51,42 @@ body {
   padding: 0;
   font-family: sans-serif; }
 
+#announcements {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  height: 25px;
+  padding-top: 5px;
+  font-size: 20px;
+  text-align: center; }
+
+#footer {
+  padding: 4px 0;
+  font-size: 15px;
+  text-align: right;
+  color: orange; }
+
+#home {
+  background-image: url("./images/beach-volleyball.jpg");
+  width: 100%;
+  height: 1000px; }
+
 nav {
-  height: 100px; }
+  height: 100px;
+  font-family: 'Bellefair', serif;
+  font-size: 30px; }
+  nav img {
+    height: 80px;
+    padding-top: 10px;
+    margin-left: 5px; }
   nav ol {
+    padding-top: 35px;
     float: right; }
     nav ol li {
-      float: left; }
+      float: left;
+      margin-right: 30px; }
+    nav ol .link {
+      text-decoration: none;
+      color: inherit; }
+    nav ol .link:hover {
+      color: #6e6e6e;
+      border-bottom: 2px solid #646464; }
