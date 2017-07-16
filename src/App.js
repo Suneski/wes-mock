@@ -15,6 +15,9 @@ import Shipping from './Shipping.js';
 import Contact from './Contact.js';
 import About from './About.js';
 
+// routed components - shop categories
+import Volleyballs from './Volleyballs.js';
+
 const newHistory = createBrowserHistory();
 
 class App extends Component {
@@ -31,6 +34,8 @@ class App extends Component {
             <Route path="/shipping" component={Shipping} />
             <Route path="/contact" component={Contact} />
             <Route path="/about" component={About} />
+            {/* Shop Routes */}
+            <Route path="/volleyballs" component={Volleyballs} />
             {/* <Route component={NotFound} /> */}
           </Switch>
           {/* <Footer /> */}
