@@ -38,10 +38,12 @@ const products = [
   {
     category: "volleyball",
     productName: "VLS300 - Offical Game Ball of 2012 Olympics",
-    productDesc: "The official beach ball of the 2012 Olympics. This ball has a new panel shape. If it is raining or wet, this ball is the one to use. It comes back from getting soaked better than any "real" volleyball we have seen.",
+    productDesc: "The official beach ball of the 2012 Olympics. This ball has a new panel shape. If it is raining or wet, this ball is the one to use. It comes back from getting soaked better than any \"real\" volleyball we have seen.",
     partNo: "VLS300",
     item: "Mikasa Beach Champ VLS300",
     price: "53.00",
     image: "shop-images/VLS300.jpg",
   },
-]
+];
+
+export default products;

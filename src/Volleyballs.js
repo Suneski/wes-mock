@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import products from './products.js';
+
+
+const productName = products[0].productName;
 
 export default class Shipping extends Component {
   render() {
@@ -6,7 +10,8 @@ export default class Shipping extends Component {
 
     return (
       <div id="volleyballs">
-        Volleyballs
+        <p>Volleyballs</p>
+        <p>{productName}</p>
         <form method="GET" action={cart32}>
           <input type="hidden" name="PartNo" value="VLS300" />
           <input type="hidden" name="Item" value="Mikasa Beach Champ VLS300" />
