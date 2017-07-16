@@ -1,9 +1,18 @@
 nav {
   height: 100px;
+  font-family: 'Bellefair', serif;
+  font-size: 30px;
+  img {
+    height: 80px;
+    padding-top: 10px;
+    margin-left: 5px;
+  }
   ol {
+    padding-top: 35px;
     float: right;
     li {
       float: left;
+      margin-right: 20px;
     }
   }
 }
