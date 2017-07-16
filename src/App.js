@@ -17,6 +17,11 @@ import About from './About.js';
 
 // routed components - shop categories
 import Volleyballs from './Volleyballs.js';
+import BeachApparel from './BeachApparel.js';
+import Antennas from './Antennas.js';
+import CourtSystems from './CourtSystems.js';
+import AnchorSystems from './AnchorSystems.js';
+import CareAndRecovery from './CareAndRecovery.js';
 
 const newHistory = createBrowserHistory();
 
@@ -36,6 +41,11 @@ class App extends Component {
             <Route path="/about" component={About} />
             {/* Shop Routes */}
             <Route path="/volleyballs" component={Volleyballs} />
+            <Route path="/beachapparel" component={BeachApparel} />
+            <Route path="/antennas" component={Antennas} />
+            <Route path="/courtsystems" component={CourtSystems} />
+            <Route path="/anchorsystems" component={AnchorSystems} />
+            <Route path="/careandrecovery" component={CareAndRecovery} />
             {/* <Route component={NotFound} /> */}
           </Switch>
           {/* <Footer /> */}

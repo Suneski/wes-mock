@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import products from './products.js';
 
+import ShopSidebar from './ShopSidebar.js';
 
 const productName = products[0].productName;
 
-export default class Shipping extends Component {
+export default class Volleyballs extends Component {
   render() {
     const cart32 = "https://www.cart32hosting.com/sheerwebhost/cart32.exe/winningedgesportscom-AddItem";
 
     return (
       <div id="volleyballs">
+        <ShopSidebar />
         <p>Volleyballs</p>
         <p>{productName}</p>
         <form method="GET" action={cart32}>
