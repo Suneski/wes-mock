@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import createBrowserHistory from 'history/createBrowserHistory';
 
 // components
 import Navigation from './Navigation.js';
@@ -14,17 +15,19 @@ import Shipping from './Shipping.js';
 import Contact from './Contact.js';
 import About from './About.js';
 
+const newHistory = createBrowserHistory();
+
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router history={newHistory}>
         <div className="App">
           <Navigation />
           <Announcements />
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/shop" exact component={Shop} />
-            <Route path="/faq" exact component={Faq} />
+            <Route path="/shop" component={Shop} />
+            <Route path="/faq" component={Faq} />
             <Route path="/shipping" component={Shipping} />
             <Route path="/contact" component={Contact} />
             <Route path="/about" component={About} />
