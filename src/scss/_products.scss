@@ -1,0 +1,13 @@
+.products-li {
+  overflow: auto;
+  outline: 1px solid grey;
+  margin: 2% 5%;
+  width: 30%;
+  height: 400px;
+  text-align: center;
+  padding: 10px;
+  float: left;
+  p {
+    line-height: 2;
+  }
+}

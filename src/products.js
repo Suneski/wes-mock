@@ -1,3 +1,5 @@
+import wth5100 from './shop-images/NCAABall2016125px.jpg';
+
 const products = [
   {
     category: "volleyball",
@@ -6,7 +8,7 @@ const products = [
     partNo: "WTH5100",
     item: "Wilson Sand Volleyball",
     price: "38.00",
-    image: "shop-images/NCAABall2016125px.jpg",
+    image: wth5100,
   },
   {
     category: "volleyball",

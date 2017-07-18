@@ -91,11 +91,36 @@ nav {
       color: #6e6e6e;
       border-bottom: 2px solid #646464; }
 
-#shop-sidebar {
-  min-height: 1000px;
-  width: 250px;
-  border-right: 1px solid black;
-  background-color: orange; }
+.products-li {
+  overflow: auto;
+  outline: 1px solid grey;
+  margin: 2% 5%;
+  width: 30%;
+  height: 400px;
+  text-align: center;
+  padding: 10px;
+  float: left; }
+  .products-li p {
+    line-height: 2; }
+
+.shop-title {
+  font-family: 'Bellefair', serif;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px 0; }
 
 #shop-sidebar {
-  float: left; }
+  float: left;
+  text-align: center;
+  min-height: 1000px;
+  width: 250px;
+  border-right: 1px solid black; }
+  #shop-sidebar p {
+    margin: 40px 0; }
+  #shop-sidebar .link {
+    text-decoration: none;
+    font-family: 'Bellefair', serif;
+    font-size: 35px;
+    color: black; }
+  #shop-sidebar .link:hover {
+    color: #6e6e6e; }
