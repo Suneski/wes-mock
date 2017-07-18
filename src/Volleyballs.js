@@ -8,7 +8,7 @@ export default class Volleyballs extends Component {
   render() {
     const cart32 = "https://www.cart32hosting.com/sheerwebhost/cart32.exe/winningedgesportscom-AddItem";
 
-    let volleyballProducts = products.map((x, i) => <VolleyballProducts
+    let volleyballProducts = products.volleyballs.map((x, i) => <VolleyballProducts
       key={i}
       category={x.category}
       productName={x.productName}
