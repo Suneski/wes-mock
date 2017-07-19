@@ -4,6 +4,14 @@ import products from './products.js';
 import ShopSidebar from './ShopSidebar.js';
 
 export default class BeachApparel extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      apparelSelection: '',
+    }
+  }
+
   render() {
     const cart32 = "https://www.cart32hosting.com/sheerwebhost/cart32.exe/winningedgesportscom-AddItem";
 
