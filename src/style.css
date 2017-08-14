@@ -109,6 +109,18 @@ nav {
   font-size: 50px;
   padding: 20px 0; }
 
+.sand-socks {
+  font-family: 'Bellefair', serif;
+  text-align: center; }
+  .sand-socks p {
+    margin-bottom: 20px; }
+
+.sand-socks-title {
+  font-size: 35px; }
+
+.vincere-title {
+  font-size: 30px; }
+
 #shop-sidebar {
   float: left;
   text-align: center;
